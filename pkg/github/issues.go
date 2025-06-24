@@ -958,7 +958,7 @@ func AssignCodingAgentPrompt(t translations.TranslationHelperFunc) (tool mcp.Pro
 				},
 				{
 					Role:    "assistant",
-					Content: mcp.NewTextContent("Certainly! Let me carefully check which ones are clearly scoped issues that are good to assign to the coding agent, and I will summarise and assign them now."),
+					Content: mcp.NewTextContent("Certainly! Let me carefully check which ones are clearly scoped issues that are good to assign to the coding agent, and I will summarize and assign them now."),
 				},
 				{
 					Role:    "user",
